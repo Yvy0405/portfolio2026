@@ -83,7 +83,7 @@ img{max-width:100%;height:auto;display:block;border-radius:10px}
 
 .logos{padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
 .logos-inner{display:grid;grid-template-columns:repeat(5,1fr);gap:28px;align-items:center;opacity:.75}
-.logos-inner img{filter:grayscale(1);max-height:28px;margin-inline:auto}
+.logos-inner img{filter:grayscale(1);max-height:128px;margin-inline:auto}
 
 .case{padding:28px 0;align-items:center}
 .case + .case{border-top:1px solid var(--line);margin-top:28px;padding-top:56px}
