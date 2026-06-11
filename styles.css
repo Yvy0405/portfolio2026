@@ -82,7 +82,7 @@ img{max-width:100%;height:auto;display:block;border-radius:10px}
 .hero-photo{width:100%;max-width:360px;box-shadow:var(--shadow)}
 
 .logos{padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
-.logos-inner{display:grid;grid-template-columns:repeat(5,1fr);gap:28px;align-items:center;opacity:.75}
+.logos-inner{display:grid;grid-template-columns:repeat(5,1fr);gap:28px;align-items:center}
 .logos-inner img{max-height:128px;margin-inline:auto}
 
 .case{padding:28px 0;align-items:center}
