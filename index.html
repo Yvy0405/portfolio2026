@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — work, experience, and contact." />
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap)" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Home">
+        <span class="logo-mark">YN</span>
+        <span class="logo-text">Your Name</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact" class="btn btn-primary btn-small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container grid-2">
+        <div class="hero-copy">
+          <h1 class="hero-title">Building clear, measurable solutions for complex problems.</h1>
+          <p class="hero-subtitle">I’m <strong>Your Name</strong>, a <strong>Role/Title</strong> specializing in <em>area of expertise</em>. I help organizations ship reliable products that move metrics.</p>
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>10+ years experience</li>
+            <li>Ex–Company1, Company2</li>
+            <li>Based in City, Country</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="assets/headshot.jpg" alt="Portrait of Your Name" class="hero-photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Logos / Social proof -->
+    <section class="section logos">
+      <div class="container logos-inner" aria-label="Featured clients">
+        <img src="assets/logo1.svg" alt="Client 1" />
+        <img src="assets/logo2.svg" alt="Client 2" />
+        <img src="assets/logo3.svg" alt="Client 3" />
+        <img src="assets/logo4.svg" alt="Client 4" />
+        <img src="assets/logo5.svg" alt="Client 5" />
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Selected Work</h2>
+          <p>Case studies with outcomes and responsibilities.</p>
+        </header>
+
+        <article class="case grid-2">
+          <div class="case-media">
+            <a href="#" aria-label="Project Alpha case study">
+              <img src="assets/project-alpha.jpg" alt="Project Alpha dashboard preview" />
+            </a>
+          </div>
+          <div class="case-copy">
+            <h3>Project Alpha</h3>
+            <p>Redesigned analytics platform for enterprise customers, improving time-to-insight and conversion.</p>
+            <ul class="meta">
+              <li><strong>Role:</strong> Product Designer</li>
+              <li><strong>Company:</strong> Acme Corp</li>
+              <li><strong>Timeline:</strong> 2025</li>
+            </ul>
+            <ul class="bullets">
+              <li>Reduced onboarding drop-off by 28% within 60 days.</li>
+              <li>Increased paid conversion by 12% via pricing experiment framework.</li>
+              <li>Shipped design system enabling 3x faster feature delivery.</li>
+            </ul>
+            <div class="case-ctas">
+              <a href="#" class="btn btn-primary btn-small">Read Case Study</a>
+              <a href="[github.com](https://github.com/yourname/project-alpha)" class="btn btn-ghost btn-small">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case grid-2 reverse">
+          <div class="case-media">
+            <a href="#" aria-label="Project Beta case study">
+              <img src="assets/project-beta.jpg" alt="Project Beta mobile screens" />
+            </a>
+          </div>
+          <div class="case-copy">
+            <h3>Project Beta</h3>
+            <p>Native app launch for financial wellness with secure onboarding and goal tracking.</p>
+            <ul class="meta">
+              <li><strong>Role:</strong> Engineering Lead</li>
+              <li><strong>Company:</strong> Finwell</li>
+              <li><strong>Timeline:</strong> 2024</li>
+            </ul>
+            <ul class="bullets">
+              <li>99.95% crash-free sessions over first 6 months.</li>
+              <li>Achieved SOC 2 Type II compliance readiness.</li>
+              <li>Implemented modular architecture cutting build times by 35%.</li>
+            </ul>
+            <div class="case-ctas">
+              <a href="#" class="btn btn-primary btn-small">Read Case Study</a>
+              <a href="[github.com](https://github.com/yourname/project-beta)" class="btn btn-ghost btn-small">View Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container grid-2">
+        <div>
+          <header class="section-header">
+            <h2>About</h2>
+            <p>Principles, skills, and ways of working.</p>
+          </header>
+          <p>I partner with teams to deliver outcomes through clear problem framing, rigorous execution, and measurable impact. I care about crisp communication, accessible interfaces, and scalable systems.</p>
+          <div class="cards">
+            <div class="card">
+              <h4>Expertise</h4>
+              <ul>
+                <li>Product strategy & roadmapping</li>
+                <li>Design systems & UI engineering</li>
+                <li>Data visualization & analytics</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4>Stack</h4>
+              <ul>
+                <li>TypeScript, React, Node</li>
+                <li>Python, FastAPI</li>
+                <li>AWS, Postgres</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4>Values</h4>
+              <ul>
+                <li>Clarity over complexity</li>
+                <li>Accessibility by default</li>
+                <li>Measure what matters</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <aside class="about-aside">
+          <div class="stat">
+            <div class="stat-num">10+</div>
+            <div class="stat-label">Years experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">24%</div>
+            <div class="stat-label">Avg. KPI lift</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">18</div>
+            <div class="stat-label">Products shipped</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Resume</h2>
+          <p>Recent roles and education.</p>
+        </header>
+
+        <div class="resume">
+          <div class="resume-item">
+            <div class="resume-heading">
+              <h3>Senior Product Designer</h3>
+              <span class="resume-meta">Acme Corp · 2023–Present · Remote</span>
+            </div>
+            <ul>
+              <li>Led cross-functional squad delivering a 15% adoption increase across enterprise accounts.</li>
+              <li>Owned design system governance used by 6 product teams.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-heading">
+              <h3>Frontend Engineer</h3>
+              <span class="resume-meta">TechLabs · 2020–2023 · City</span>
+            </div>
+            <ul>
+              <li>Built component library with TypeScript and testing coverage >90%.</li>
+              <li>Partnered with data to ship funnel experiments; improved activation +11%.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-heading">
+              <h3>Education</h3>
+              <span class="resume-meta">B.S. in Something · University Name</span>
+            </div>
+            <ul>
+              <li>Graduated with honors; focus on HCI and statistics.</li>
+            </ul>
+          </div>
+
+          <div class="resume-cta">
+            <a href="assets/YourName_Resume.pdf" class="btn btn-ghost">Download PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Let’s talk about your project or role.</p>
+        </header>
+        <div class="contact grid-2">
+          <form class="contact-form" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note">Prefer email? <a href="mailto:you@domain.com">you@domain.com</a></p>
+          </form>
+
+          <div class="contact-info">
+            <div class="contact-card">
+              <h4>Email</h4>
+              <a href="mailto:you@domain.com">you@domain.com</a>
+            </div>
+            <div class="contact-card">
+              <h4>LinkedIn</h4>
+              <a href="[linkedin.com](https://www.linkedin.com/in/yourprofile)" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a>
+            </div>
+            <div class="contact-card">
+              <h4>GitHub</h4>
+              <a href="[github.com](https://github.com/yourname)" target="_blank" rel="noopener">github.com/yourname</a>
+            </div>
+            <div class="contact-card">
+              <h4>Location</h4>
+              <p>City, Country</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
