@@ -71,9 +71,9 @@ img{max-width:100%;height:auto;display:block;border-radius:10px}
 .awards-ctas {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
 
-  padding: 12px 22px;
+  padding: 12px 24px;
   border-radius: 999px;
 
   background: #111827;
@@ -97,7 +97,6 @@ img{max-width:100%;height:auto;display:block;border-radius:10px}
 .awards-ctas:active {
   transform: translateY(0);
 }
-
 .hero{padding:84px 0 48px}
 .grid-2{
   display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center
