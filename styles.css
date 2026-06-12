@@ -68,6 +68,35 @@ img{max-width:100%;height:auto;display:block;border-radius:10px}
 .btn-primary:hover{background:var(--brand-600);border-color:var(--brand-600)}
 .btn-ghost{background:transparent;border-color:var(--line);color:var(--text)}
 .btn-small{padding:8px 12px;border-radius:8px;font-weight:600}
+.awards-ctas {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 22px;
+  border-radius: 999px;
+
+  background: #111827;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.awards-ctas:hover {
+  background: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.awards-ctas:active {
+  transform: translateY(0);
+}
 
 .hero{padding:84px 0 48px}
 .grid-2{
